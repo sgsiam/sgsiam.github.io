@@ -5924,6 +5924,7 @@ hr.underliner {
   opacity: 0;
   filter: alpha(opacity=0);
   z-index: -1;
+  overflow: hidden;
   -webkit-transition: 0.05s zIndex, 0s width, 0.2s opacity;
   transition: 0.05s zIndex, 0s width, 0.2s opacity;
 }
@@ -5984,7 +5985,7 @@ body.activenav .globalnav {
   width: 100vw !important;
   opacity: 1;
   filter: alpha(opacity=100);
-  z-index: z-index 10000;
+  z-index: 9999;
 }
 #about,
 #number {
